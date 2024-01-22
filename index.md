@@ -116,7 +116,7 @@ AUDIENCE
 
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
-{% endcomment %}
+
 {% if site.carpentry == "swc" %}
 {% include swc/who.html %}
 {% elsif site.carpentry == "dc" %}
@@ -124,6 +124,7 @@ workshop is only open to people from a particular institution.
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
 {% endif %}
+{% endcomment %}
 
 {% comment %}
 LOCATION
@@ -176,6 +177,35 @@ This block displays the date and links to Google Calendar.
   {% include workshop_calendar.html %}
 </p>
 {% endif %}
+
+{% comment %}
+WHO CAN ATTEND?
+
+If you would like to specify who can attend the workshop,
+you can use the section below.
+
+Move the 'endcomment' tag above the beginning of the following
+<p> tag to make this section visible.
+
+Edit the text to match who can attend the workshop. For instance:
+- This workshop is open to affiliates to ABC university.
+- This workshop is open to the public.
+- If you are interested in attending this workshop, contact me@example.com
+  for more information
+
+{% endcomment %}
+<p id="who-can-attend">
+    <strong>Who can attend?:</strong>
+    This workshop is intended for community college students planning to pursue astronomy or physics degrees, but we warmly welcome applications from students of all majors. <em><b>Please be aware that workshop space is limited.</b></em> Selection will prioritize applicants based on a needs-based criteria, reflecting our commitment to fostering a diverse and inclusive participant group. Preference will be given to those with demonstrated needs or strong alignment with the workshop's goals.
+
+  <p class="text-center">
+  <a href="https://forms.gle/ibxeZ6SzT4Xo23xQ8">
+    <button type="button" class="btn btn-info">Submit Your Application</button>
+  </a>
+</p>
+
+</p>
+
 
 {% comment %}
 SPECIAL REQUIREMENTS
@@ -252,33 +282,7 @@ Display the contact email address set in the configuration file.
   refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
 </p>
 
-{% comment %}
-WHO CAN ATTEND?
 
-If you would like to specify who can attend the workshop,
-you can use the section below.
-
-Move the 'endcomment' tag above the beginning of the following
-<p> tag to make this section visible.
-
-Edit the text to match who can attend the workshop. For instance:
-- This workshop is open to affiliates to ABC university.
-- This workshop is open to the public.
-- If you are interested in attending this workshop, contact me@example.com
-  for more information
-
-{% endcomment %}
-<p id="who-can-attend">
-    <strong>Who can attend?:</strong>
-    This workshop is intended for community college students planning to pursue astronomy or physics degrees, but we warmly welcome applications from students of all majors. <em><b>Please be aware that workshop space is limited.</b></em> Selection will prioritize applicants based on a needs-based criteria, reflecting our commitment to fostering a diverse and inclusive participant group. Preference will be given to those with demonstrated needs or strong alignment with the workshop's goals.
-
-  <p class="text-center">
-  <a href="https://forms.gle/ibxeZ6SzT4Xo23xQ8">
-    <button type="button" class="btn btn-info">Submit Your Application</button>
-  </a>
-</p>
-
-</p>
 
 
 <hr/>
