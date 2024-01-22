@@ -32,10 +32,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% endcomment %}
 
 
-{% comment %}
-
-{% endcomment %}
-
 
 {% comment %}
 Check DC curriculum
@@ -92,17 +88,35 @@ the pitch.
 {% endcomment %}
 
 <p>
-<strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
-href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
-<a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
-helpers, and supporters who share a mission to teach foundational computational and data science
-skills to researchers.
+Welcome to the homepage for the Spring 2024 Computational Astrophysics Research Preparation (CARP) workshop – a unique mentorship and Python-based coding experience tailored for prospective community college transfer students in San Diego County.
+
+<p>
+  <strong>Objective:</strong>
+
+The CARP workshop aims to equip participants with a robust programming foundation and provide relevant mentorship to facilitate their successful transition and integration into the academic environment of a four-year university.
+  
+</p>
+
+<p>
+  <strong>Mentorship Component:</strong>
+
+Navigating the transition from a two-year college to a four-year university is a journey filled with unique challenges. This workshop segment will include exercises and interactive activities exploring topics such as what to expect from the transfer process, practical strategies for adapting to the four-year university setting, and the intricacies of transfer planning using tools like ASSIST and UC TAP. Additionally, we'll delve into the benefits of mentorship for academic success and share strategies for building community post-transfer.
+</p>
+
+<p>
+  <strong>Computational Component:</strong>
+
+Gaining fundamental programming skills before transitioning is pivotal for initiating academic research with faculty at a four-year university. In collaboration with <strong><a href="https://carpentries.org">The Carpentries</a></strong>, the workshop integrates lessons developed by the Software Carpentry and Data Carpentry communities. These communities consist of dedicated Instructors, Trainers, Maintainers, helpers, and supporters united by a mission to teach foundational computational and data science skills to students and researchers. Participants will acquire the basics of Python programming while gaining familiarity with widely-used tools and techniques crucial for astrophysics research.
+
+</p>
+
 <p align="center">
   <em>
   <strong>Want to learn more and stay engaged with The Carpentries?</strong> Carpentries Clippings is The Carpentries' biweekly newsletter, where we share community news, community job postings, and more.
 Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
   </em>
 </p>
+
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
 {% elsif site.carpentry == "dc" %}
