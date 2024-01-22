@@ -178,6 +178,24 @@ This block displays the date and links to Google Calendar.
 </p>
 {% endif %}
 
+
+{% comment %}
+SPECIAL REQUIREMENTS
+
+Modify the block below if there are any special requirements.
+{% endcomment %}
+<p id="requirements">
+  <strong>Requirements:</strong>
+  {% if online == "false" %}
+    Participants must bring a laptop with a
+    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+  {% else %}
+    Participants must have access to a computer with a
+    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+  {% endif %}
+  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+</p>
+
 {% comment %}
 WHO CAN ATTEND?
 
@@ -196,7 +214,7 @@ Edit the text to match who can attend the workshop. For instance:
 {% endcomment %}
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is intended for community college students planning to pursue astronomy or physics degrees, but we warmly welcome applications from students of all majors. <em><b>Please be aware that workshop space is limited.</b></em> Selection will prioritize applicants based on a needs-based criteria, reflecting our commitment to fostering a diverse and inclusive participant group. Preference will be given to those with demonstrated needs or strong alignment with the workshop's goals.
+    This workshop is aimed at community college students in San Diego County that plan to pursue astronomy or physics degrees, but we warmly welcome applications from students of all majors. <em><b>Please be aware that workshop space is limited.</b></em> Selection will prioritize applicants based on a needs-based criteria, reflecting our commitment to fostering a diverse and inclusive participant group. Preference will be given to those with demonstrated needs or strong alignment with the workshop's goals.
 
   <p class="text-center">
   <a href="https://forms.gle/ibxeZ6SzT4Xo23xQ8">
@@ -204,24 +222,6 @@ Edit the text to match who can attend the workshop. For instance:
   </a>
 </p>
 
-</p>
-
-
-{% comment %}
-SPECIAL REQUIREMENTS
-
-Modify the block below if there are any special requirements.
-{% endcomment %}
-<p id="requirements">
-  <strong>Requirements:</strong>
-  {% if online == "false" %}
-    Participants must bring a laptop with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
-  {% else %}
-    Participants must have access to a computer with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
-  {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
 
 {% comment %}
@@ -250,6 +250,7 @@ special instructions.
   If you have questions or need assistance with the accommodation form please <a href="mailto:team@carpentries.org">email us</a>.
 </p>
 {% endif %}
+
 
 {% comment %}
 CONTACT EMAIL ADDRESS
