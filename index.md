@@ -216,6 +216,7 @@ Edit the text to match who can attend the workshop. For instance:
     <strong>Who can attend?:</strong>
     This workshop is aimed at community college students in San Diego County that plan to pursue astronomy or physics degrees, but we warmly welcome applications from students of all majors. <em><b>Please be aware that workshop space is limited.</b></em> Selection will prioritize applicants based on a needs-based criteria, reflecting our commitment to fostering a diverse and inclusive participant group. Preference will be given to those with demonstrated needs or strong alignment with the workshop's goals.
 
+<p id="eligibility">
 <strong>Additional eligibility information:</strong>
   The workshop is designed to accommodate participants with varying levels of experience. No prior coding background is required since fundamental concepts will be covered during the workshop. Some familiarity with basic astronomy concepts, such as reference frames, proper motion, isochrones, and color-magnitude diagrams, would be beneficial. However, lectures will be tailored based on participants' familiarity, as assessed through the interest form. Eligibility is primarily based on the applicant's intention to transfer in the near future, their perceived level of preparedness for the transfer process, and their interest in developing programming skills for undergraduate research.
 
@@ -224,7 +225,7 @@ Edit the text to match who can attend the workshop. For instance:
     <button type="button" class="btn btn-info">Submit Your Application</button>
   </a>
 </p>
-
+</p>
 </p>
 
 {% comment %}
