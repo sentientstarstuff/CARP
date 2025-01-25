@@ -214,6 +214,8 @@ Edit the text to match who can attend the workshop. For instance:
 {% endcomment %}
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
+    This workshop is specifically designed for community college students in San Diego County who aspire to transfer to a four-year university and engage in undergraduate research. Additionally, it aims to provide them with valuable mentorship to enhance their transfer readiness. While there is an astrophysics focus, we welcome applications from students of all majors. Please be aware that workshop space is limited. Applicants will be selected according to a needs-based criteria, with a preference given to students who are most likely to benefit from the content covered in this workshop.
+  
     This workshop is aimed at community college students in San Diego County that plan to pursue astronomy or physics degrees, but we warmly welcome applications from students of all majors. <em><b>Please be aware that workshop space is limited.</b></em> Selection will prioritize applicants based on a needs-based criteria, reflecting our commitment to fostering a diverse and inclusive participant group. Preference will be given to those with demonstrated needs or strong alignment with the workshop's goals.
 
 <p id="eligibility">
