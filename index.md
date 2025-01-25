@@ -358,7 +358,7 @@ change the value of `carpentry` to `incubator`.
 
 
 {% comment %}
-SCHEDULE
+PRELIMINARY SCHEDULE
 
 Show the workshop's schedule.
 
