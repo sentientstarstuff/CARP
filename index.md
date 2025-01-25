@@ -9,10 +9,10 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "32.884048"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-117.238647"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "May 27-31"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "June 02-06"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 4:00 pm"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
-startdate: 2023-05-27      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2023-05-31        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+startdate: 2025-06-02      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2024-05-06        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Dr. Devontae Baxter"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["TDB"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["dcbaxter@ucsd.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
@@ -88,7 +88,7 @@ the pitch.
 {% endcomment %}
 
 <p>
-Welcome to the homepage for the Spring 2024 Computational Astrophysics Research Preparation (CARP) workshop – a unique mentorship and Python-based coding experience tailored for prospective community college transfer students in San Diego County.
+Welcome to the homepage for the Spring 2025 Computational Astrophysics Research Preparation (CARP) workshop – a unique mentorship and Python-based coding experience tailored for prospective community college transfer students in San Diego County.
 
 <p>
   <strong>Objective:</strong>
@@ -221,7 +221,7 @@ Edit the text to match who can attend the workshop. For instance:
   The workshop is designed to accommodate participants with varying levels of experience. No prior coding background is required since fundamental concepts will be covered during the workshop. Some familiarity with basic astronomy concepts, such as reference frames, proper motion, isochrones, and color-magnitude diagrams, would be beneficial. However, lectures will be tailored based on participants' familiarity, as assessed through the interest form. Eligibility is primarily based on the applicant's intention to transfer in the near future, their perceived level of preparedness for the transfer process, and their interest in developing programming skills for undergraduate research.
 
   <p class="text-center">
-  <a href="https://forms.gle/ibxeZ6SzT4Xo23xQ8">
+  <a href="https://forms.gle/StU17gq9vmfkGKvg9">
     <button type="button" class="btn btn-info">Submit Your Application</button>
   </a>
 </p>
